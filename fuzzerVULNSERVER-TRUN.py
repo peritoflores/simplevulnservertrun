@@ -29,7 +29,7 @@ while True:
 		sleep(1)
 	except Exception as e:
 		#print(e)
-		print "El fuzzer se detuvo al enviar",offset, "bytes"
+		print "El fuzzer se detuvo al enviar ",offset, "bytes"
 		break;
 
 
